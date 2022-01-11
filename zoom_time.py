@@ -35,7 +35,7 @@ print('Found URL:', modurl) # printing url to confirm
 
 # get start time
 for dt in ccal.walk('vEvent'):
-    class_start = dt.get('dtstart') # how do you realize you can use get here?
+    class_start = dt.get('dtstart')
     end = dt.get('dtend')
 
     class_start2 = class_start.dt
